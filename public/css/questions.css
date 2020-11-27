@@ -1,0 +1,22 @@
+body{
+    background-color: #eceff1;
+}
+
+.container{
+    margin-top: 5vh;
+    max-width: 70vw;
+}
+
+.card{
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.card-header:first-child{
+    border-radius: 1rem 1rem 0 0;
+}
+
+form label+input,
+form label+textarea,
+form button{
+    margin-bottom: 20px;
+}
